@@ -1,5 +1,7 @@
 window.onload = function() {
+  //showdown library
   var converter = new showdown.Converter();
+  
   var pad = document.getElementById('pad');
   var markdownArea = document.getElementById('markdown');
 
