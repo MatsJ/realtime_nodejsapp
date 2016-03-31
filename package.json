@@ -1,0 +1,26 @@
+{
+  "name": "realtime_nodejsapp",
+  "version": "1.0.0",
+  "description": "A realtime nodejs app.",
+  "main": "server.js",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatsJ/realtime_nodejsapp.git"
+  },
+  "author": "",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "redis": "^0.10.3",
+    "share": "0.6.3"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatsJ/realtime_nodejsapp/issues"
+  },
+  "homepage": "https://github.com/MatsJ/realtime_nodejsapp#readme"
+}

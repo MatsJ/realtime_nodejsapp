@@ -1,0 +1,31 @@
+html, body, section, full-height {
+  height: 100%;
+}
+
+/** textarea **/
+#pad {
+  min-height: 150px;
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #1BA39C;
+  border: none;
+  overflow: auto;
+  outline: none;
+  resize: none;
+  text-align: center;
+  margin-top: 15%;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/** div **/
+#markdown {
+  font-size: 20px;
+  overflow: auto;
+  border-left: 1px solid black;
+  text-align: center;
+  margin-top: 15%;
+}
