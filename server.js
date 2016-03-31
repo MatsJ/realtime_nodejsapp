@@ -1,10 +1,10 @@
 var express = require('express');
 var app = express();
 
-//set the view engine to ejs
+//makes it possible to render ejs files.
 app.set('view engine', 'ejs');
 
-//public folder to store stylesheets, javascript, images etc
+//specifies where to store stylesheets, javascript, images etc
 app.use(express.static(__dirname + '/public'));
 
 //routes for app
